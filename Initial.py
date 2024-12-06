@@ -10,3 +10,10 @@ print(b, "Using sorted")
 l = [1,2,3,4,5]
 output_list = list(map(lambda x: x+1,l))
 print(output_list," Mapped List")
+
+a=[2,5,8,12]
+b=[]
+for i in a:
+    if (i>5):
+        b.append(i)
+print(b)
