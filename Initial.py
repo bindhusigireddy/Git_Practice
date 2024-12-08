@@ -14,6 +14,8 @@ print(output_list," Mapped List")
 a=[2,5,8,12]
 b=[]
 for i in a:
-    if (i>5):
+    if (i>10):
         b.append(i)
+print("example code")
 print(b)
+print(a)
